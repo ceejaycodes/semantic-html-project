@@ -1,0 +1,412 @@
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit
+}
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 2rem;
+    font-family: "Nunito", sans-serif
+
+}
+
+html,body {
+    max-width: 100%;
+    overflow-x: hidden;
+    max-height: min-content;
+    background-color: #fffcf9;
+
+
+}
+
+.logo img{
+    height: 6rem;
+}
+
+ul{
+    display: flex;
+    gap:1rem;
+}
+
+
+
+li:hover{
+    text-decoration: underline;
+    text-decoration-color: #ee8d21;
+
+}
+
+li:active{
+    text-decoration: underline;
+    text-decoration-color: #ee8d21;
+    
+
+}
+
+
+ li{
+    list-style-type: none;
+    text-underline-offset: 0.5rem;
+ }
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.mobilenav{
+    padding-top: 1rem;
+}
+
+.logbook{
+    position: relative;
+    top: 1rem;
+}
+
+
+
+.bookscooter{
+    background-color: #ee8d21;
+    padding-inline: .7rem;
+    padding-block: .7rem;
+    border-radius: 1.2rem;
+    color: white;
+
+}
+
+
+.hero{
+    padding-top: 3rem;
+    font-family: "Poppins", sans-serif;
+    padding-inline:  1rem;
+
+}
+
+.herotext{
+    display: flex;
+    color: #364547;
+    padding-bottom: 8.2rem;
+}
+
+
+
+.herotext h5{
+    font-size: 2.7rem;
+    font-weight:lighter;
+    letter-spacing: .03rem;
+
+}
+
+.herotext  p{
+    font-size: small;
+    padding-right: 7rem;
+    padding-top: 4rem;
+    word-spacing: 4px;
+}
+.scooter {
+    gap:8px;
+}
+
+.scooter h1{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    word-spacing:5px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:  #364547;
+    -webkit-text-fill-color: #364547;
+}
+
+.scooter h1:nth-child(2){
+    color: #ee8d21;
+    -webkit-text-stroke-color: #ee8d21;
+    -webkit-text-fill-color: #ee8d21;
+
+}
+
+
+.herotext1{
+    min-width: fit-content;
+    position: relative;
+    right: 11rem;
+    top: 4rem
+}
+
+.second{
+    position: relative;
+    justify-content: center;
+    bottom: 15rem;
+}
+
+.vectors{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.vectors img{
+    position: relative;
+
+}
+
+
+
+.vectors  img:nth-child(2){
+    bottom: 27rem;
+}
+
+.vectors img:nth-child(3){
+    bottom: 51rem;
+}
+
+
+.heroinput{
+}
+
+.heroinput form {
+    background-color: #ffffff;
+    border-radius: 2rem;
+    padding-block: 1rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+.heroinput button{
+    padding-top: 0.7rem;
+    padding-inline: 0.6rem;
+    padding-block: 0.4rem;
+    border-radius: 1rem;
+    width: 4rem;
+    margin-right: -1.7rem;
+    box-shadow: 0px 7px 5px 0px rgba(238,141,33,0.75);
+    -webkit-box-shadow: 0px 7px 5px 0px rgba(238,141,33,0.75);
+    -moz-box-shadow: 0px 7px 5px 0px rgba(238,141,33,0.75);
+}
+
+.heroinput  input{
+    border-width: 0 1px 0 0;
+    width: 4rem;
+    margin-right: 1.4rem;
+}
+
+
+.heroinput input:nth-child(2){
+    width: 6rem;
+}
+.heroinput input:nth-child(3){
+    width: 4rem;
+    border: none;
+}
+
+
+
+.heroinput ::-webkit-input-placeholder{
+    letter-spacing: 0.2px;
+    color: #b2b2b2;
+}
+
+
+
+
+.second span:nth-child(1) img:nth-child(1) {
+    position: relative;
+    bottom: 1rem;
+    left:7rem;
+}
+.second span:nth-child(1) img:nth-child(2) {
+    position: relative;
+    top: 31rem;
+    z-index: 999;
+}
+.second span:nth-child(2) {
+    position: relative;
+    bottom: 12rem;
+}
+.second span:nth-child(2) h6{
+    color: #364547;
+    font-size: 1rem;
+    font-weight: 900;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:  #364547;
+    -webkit-text-fill-color: #364547;
+}
+.second span:nth-child(2) h1{
+    color: #ee8d21;
+    font-size: 2.5rem;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:  #ee8d21;
+    -webkit-text-fill-color: #ee8d21;
+
+}
+
+
+.leaves{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+
+    main{
+        height: 100vh;
+        overflow-y: hidden;
+    }
+
+    nav{
+        justify-content:space-between;
+        padding-inline: 6.5rem;
+    }
+
+    .mobilenav{
+        padding-top: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        gap:18rem;
+    }
+
+    .logbook{
+        top:0;
+        margin-right: 2rem;
+    }
+
+    .menu{
+        padding-top: 0.3rem;
+         gap:5rem;
+    }
+  
+
+    .hero{
+        margin-top: 4rem;
+        display: flex;
+        height: 50vh;
+    }
+
+    .first{
+        flex-basis: 60%;
+    }
+    
+    .herotext p{
+        padding-top:1rem;
+        padding-right: 12.5rem;
+
+    }
+    .herotext1{
+        margin-left: 2rem;
+        margin-top: -1.5rem;
+    }
+
+    .herotext1 h1{
+        font-size: 4rem;
+    }
+    .herotext1 h5{
+        font-size: 2.5rem;
+    }
+
+    
+
+    .heroinput form{
+        position: relative;
+        justify-content: space-evenly;
+        left: 6rem;
+        width: 33rem;
+        bottom: 3rem;
+        height: 4.5rem;
+        z-index: 80;
+    }
+
+    .heroinput  input{
+        width: 8rem;
+    }
+    .heroinput  input:nth-child(1){
+        width: 8rem;
+        padding-left: 2rem;
+    }
+    .heroinput  input:nth-child(2){
+        width: 8rem;
+        padding-right: 3rem;
+    }
+
+    .heroinput button{
+        width: 7rem;
+        margin-right: 0.1rem;
+        
+    }
+
+
+.heroinput ::-webkit-input-placeholder{
+    justify-content: center;
+    letter-spacing: 0.2px;
+    color: #b2b2b2;
+}
+
+    .second{
+        bottom: 36rem;
+    }
+    .second span:nth-child(2) {
+        position: relative;
+        bottom: 2rem;
+        left: 21rem;
+    }
+
+    .second span:nth-child(1) img:nth-child(1) {
+        right: 3.2rem;
+    }
+
+    .leaves{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .leaves img{
+        width: 12rem;
+        z-index: 20;
+    }
+
+    .leaves img:nth-child(1){
+        position: relative;
+        right: 14rem;
+        bottom: 1rem;
+        
+    }
+    .leaves img:nth-child(2){
+        position: relative;
+        left: 14rem;
+        bottom: 1rem;
+        
+    }
+
+   
+
+    
+}
+
+
