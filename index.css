@@ -101,7 +101,7 @@ li:active{
 
 
 .herotext h5{
-    font-size: 2.7rem;
+    font-size: 1.7rem;
     font-weight:lighter;
     letter-spacing: .03rem;
 
@@ -118,7 +118,7 @@ li:active{
 }
 
 .scooter h1{
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     font-weight: bolder;
     word-spacing:5px;
     -webkit-text-stroke-width: 2px;
@@ -271,7 +271,7 @@ li:active{
 
 
 
-
+/* for screens with width of 600px and bigger */
 
 
 @media only screen and (min-width: 600px) {
