@@ -413,3 +413,22 @@ li:active{
 }
 
 
+
+
+@media only screen and (min-width: 1200px) {
+    .leaves img:nth-child(1){
+        position: relative;
+        right: 24rem;
+        bottom: 1rem;
+        
+    }
+    .leaves img:nth-child(2){
+        position: relative;
+        left: 24rem;
+        bottom: 1rem;
+        
+    }
+
+
+}
+
