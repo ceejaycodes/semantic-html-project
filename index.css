@@ -11,6 +11,10 @@ a {
     margin: 0;
 }
 
+button, li{
+    cursor: pointer;
+}
+
 nav{
     padding-top: 1.5rem;
     display: flex;
